@@ -10,6 +10,9 @@ function setupWorkstation()
 	# install fzf
 	/usr/local/opt/fzf/install
 
+	# install tmux gitbar
+	git clone https://github.com/aurelien-rainone/tmux-gitbar.git ~/.tmux-gitbar
+
 	# symlink
 	ln -sfv "$HOME/.dotfiles/editors/.vimrc" ~
 	ln -sfv "$HOME/.dotfiles/editors/sublime/" "$HOME/Library/Application Support/Sublime Text 3/Packages"
@@ -45,6 +48,9 @@ function setupMacServer()
 
 	# install fzf
 	/usr/local/opt/fzf/install
+
+	# install tmux gitbar
+	git clone https://github.com/aurelien-rainone/tmux-gitbar.git ~/.tmux-gitbar
 
 	# symlink
 	ln -sfv "$HOME/.dotfiles/editors/.vimrc" ~

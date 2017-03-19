@@ -1,8 +1,8 @@
 # This is Git's per-user configuration file.
 
 [include]
-  # For username / creds / etc
-  path = ~/.gitconfig.local
+	# For username / creds / etc
+	path = ~/.gitconfig.local
 
 [github]
 	user = BenEdV

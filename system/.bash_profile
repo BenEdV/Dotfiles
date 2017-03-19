@@ -31,4 +31,3 @@ complete -F _complete_ssh_hosts ssh scp
 
 # fzf
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
-
