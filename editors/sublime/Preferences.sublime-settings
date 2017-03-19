@@ -1,0 +1,41 @@
+{
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": "\\",
+			"selector": "text.tex.latex"
+		}
+	],
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Cobalt (SL) (Flake8Lint).tmTheme",
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"enable_tab_scrolling": false,
+	"font_face": "Hack",
+	"font_options":
+	[
+		"gray_antialias"
+	],
+	"font_size": 13,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"match_brackets": false,
+	"material_theme_compact_sidebar": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"open_files_in_new_window": false,
+	"scroll_past_end": true,
+	"show_errors_inline": true,
+	"theme": "Material-Theme.sublime-theme"
+}

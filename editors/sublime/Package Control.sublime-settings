@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Generic Config",
+		"Git",
+		"GitGutter",
+		"LaTeXTools",
+		"Markdown Preview",
+		"Material Theme",
+		"OpenCL",
+		"Package Control",
+		"PyCover",
+		"rsub",
+		"SublimeLinter",
+		"SublimeLinter-chktex",
+		"SublimeLinter-hlint",
+		"SublimeLinter-pylint",
+		"SublimeLinter-shellcheck",
+		"Swift",
+		"Terminal"
+	]
+}

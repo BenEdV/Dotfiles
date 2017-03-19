@@ -1,0 +1,6 @@
+# Sublime text 
+oscrypto-ca-bundle.crt
+*.user-ca-bundle
+*.merged-ca-bundle
+*.last-run
+*.cache

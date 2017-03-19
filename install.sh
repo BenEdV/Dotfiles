@@ -17,6 +17,8 @@ ln -sfv "$HOME/.dotfiles/system/.git-completion.bash" ~
 
 ln -sfv "$HOME/.dotfiles/tmux/.tmux.conf" ~
 ln -sfv "$HOME/.dotfiles/tmux/.tmux-gitbar.conf" ~
+ln -sfv "$HOME/.dotfiles/editors/sublime/" "$HOME/Library/Application Support/Sublime Text 3/Packages"
+mv "$HOME/Library/Application Support/Sublime Text 3/Packages/sublime" "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
 
 # nano syntax highlighting
 curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh

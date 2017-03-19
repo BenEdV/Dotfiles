@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+\documentclass{homeworkProblems}
+
+\hmwkTitle{${1:title}}
+\hmwkDueDate{${2:date}}
+\hmwkClass{${3:class}}
+\hmwkClassInstructor{${4:instuctor}}
+\hmwkAuthorName{Ben de Vries}
+\hmwkAuthorID{4290194}
+
+\begin{document}
+	\begin{homeworkProblem}
+		$5
+	\end{homeworkProblem}
+\end{document}
+]]></content>
+	<tabTrigger>homeworkClass</tabTrigger>
+	<scope>text.tex.latex</scope>
+</snippet>
