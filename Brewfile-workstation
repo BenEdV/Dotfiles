@@ -1,0 +1,36 @@
+cask_args appdir: '/Applications'
+
+tap 'caskroom/cask'
+tap 'homebrew/bundle'
+tap 'homebrew/core'
+tap 'pebble/pebble-sdk'
+
+brew 'sqlite'
+brew 'python3'
+brew 'coreutils'
+brew 'fzf'
+brew 'gettext'
+brew 'htop'
+brew 'mas'
+brew 'python'
+brew 'reattach-to-user-namespace'
+brew 'shellcheck'
+brew 'swiftlint'
+brew 'texinfo'
+brew 'tmux'
+brew 'tree'
+brew 'pebble/pebble-sdk/pebble-qemu'
+brew 'pebble/pebble-sdk/pebble-toolchain'
+brew 'pebble/pebble-sdk/pebble-sdk'
+
+cask 'sublime-text3'
+
+mas 'GarageBand', id: 682658836
+mas 'Keynote', id: 409183694
+mas 'Logic Pro', id: 459578486
+mas 'Monity', id: 915542151
+mas 'Notability', id: 736189492
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
+mas 'Slack', id: 803453959
+mas 'Xcode', id: 497799835

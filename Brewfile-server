@@ -1,0 +1,20 @@
+cask_args appdir: '/Applications'
+
+tap 'homebrew/bundle'
+tap 'homebrew/core'
+tap 'pebble/pebble-sdk'
+
+brew 'sqlite'
+brew 'python3'
+brew 'coreutils'
+brew 'fzf'
+brew 'gettext'
+brew 'htop'
+brew 'mas'
+brew 'python'
+brew 'reattach-to-user-namespace'
+brew 'texinfo'
+brew 'tmux'
+brew 'tree'
+
+mas 'Xcode', id: 497799835
