@@ -26,7 +26,6 @@ function setupWorkstation()
 	ln -sfv "$HOME/.dotfiles/system/.inputrc" ~
 	ln -sfv "$HOME/.dotfiles/system/.aliases" ~
 	ln -sfv "$HOME/.dotfiles/system/.exports" ~
-	ln -sfv "$HOME/.dotfiles/system/.extra" ~
 	ln -sfv "$HOME/.dotfiles/system/.prompt" ~
 	ln -sfv "$HOME/.dotfiles/system/.git-completion.bash" ~
 
@@ -63,7 +62,6 @@ function setupMacServer()
 	ln -sfv "$HOME/.dotfiles/system/.inputrc" ~
 	ln -sfv "$HOME/.dotfiles/system/.aliases" ~
 	ln -sfv "$HOME/.dotfiles/system/.exports" ~
-	ln -sfv "$HOME/.dotfiles/system/.extra" ~
 	ln -sfv "$HOME/.dotfiles/system/.prompt" ~
 	ln -sfv "$HOME/.dotfiles/system/.git-completion.bash" ~
 

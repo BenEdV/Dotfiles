@@ -10,6 +10,7 @@ alias .....="cd ../../../.."
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
+alias la='ls -a'
 
 # Matlab
 alias matlab='/Applications/MATLAB_R2016b.app/bin/matlab -nodesktop -nosplash'
