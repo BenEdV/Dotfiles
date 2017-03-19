@@ -4,3 +4,5 @@ oscrypto-ca-bundle.crt
 *.merged-ca-bundle
 *.last-run
 *.cache
+
+.gitconfig.local

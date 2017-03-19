@@ -1,0 +1,16 @@
+# This is Git's per-user configuration file.
+
+[include]
+  # For username / creds / etc
+  path = ~/.gitconfig.local
+
+[github]
+	user = BenEdV
+
+[alias]
+	a = add
+	s = status
+	cm = commit -m
+
+[core]
+	excludesfile = ~/.gitignore_global
