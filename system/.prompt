@@ -1,0 +1,10 @@
+#! bin/bash
+
+prompt="\n" #newline
+prompt="$prompt\e[36m\]\u" #username
+prompt="$prompt\[\e[m\]@" #@
+prompt="$prompt\[\e[32m\]\h" #hostname
+prompt="$prompt:" #:
+prompt="$prompt\[\e[33;1m\]\w" #directory
+prompt="$prompt\[\e[m\]\$ " #prompt
+export PS1=$prompt

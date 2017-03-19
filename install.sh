@@ -1,0 +1,25 @@
+#! /bin/bash
+
+# symlink
+ln -sfv "$HOME/.dotfiles/editors/.vimrc" ~
+
+ln -sfv "$HOME/.dotfiles/git/.gitconfig" ~
+ln -sfv "$HOME/.dotfiles/git/.gitignore_global" ~
+ln -sfv "$HOME/.dotfiles/git/.hgignore_global" ~
+
+ln -sfv "$HOME/.dotfiles/system/.bash_profile" ~
+ln -sfv "$HOME/.dotfiles/system/.inputrc" ~
+ln -sfv "$HOME/.dotfiles/system/.aliases" ~
+ln -sfv "$HOME/.dotfiles/system/.exports" ~
+ln -sfv "$HOME/.dotfiles/system/.extra" ~
+ln -sfv "$HOME/.dotfiles/system/.prompt" ~
+ln -sfv "$HOME/.dotfiles/system/.git-completion.bash" ~
+
+ln -sfv "$HOME/.dotfiles/tmux/.tmux.conf" ~
+ln -sfv "$HOME/.dotfiles/tmux/.tmux-gitbar.conf" ~
+
+# nano syntax highlighting
+curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
+
+source brew.sh
+source .macos

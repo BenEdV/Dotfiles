@@ -1,0 +1,21 @@
+#! /bin/bash
+
+# Easier navigation: .., ..., ...., .....
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# Coloured ls
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+alias ls='ls -GFh'
+
+# Matlab
+alias matlab='/Applications/MATLAB_R2016b.app/bin/matlab -nodesktop -nosplash'
+
+# Profile command
+alias reload_profile=". ~/.bash_profile"
+
+# python virtual environment
+alias ve="source venv/bin/activate"
