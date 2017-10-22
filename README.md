@@ -1,5 +1,5 @@
 # Ben's Dotfiles
-These are config files for various editors and programs
+These are my config files for various editors and programs.
 
 ## Installation
 ```
