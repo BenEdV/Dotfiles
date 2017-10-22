@@ -31,6 +31,13 @@ defaults write com.apple.systemuiserver menuExtras -array \
 	"/System/Library/CoreServices/Menu Extras/Battery.menu" \
 	"/System/Library/CoreServices/Menu Extras/Clock.menu"
 
+# Disable Siri menu bar item
+defaults write 'com.apple.Siri' 'StatusMenuVisible' -bool false
+defaults write 'com.apple.systemuiserver' 'NSStatusItem Visible Siri' -bool false
+
+# Dark menu bar
+defaults write /Library/Preferences/.GlobalPreferences AppleInterfaceTheme Dark
+
 # Set sidebar icon size to small
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 

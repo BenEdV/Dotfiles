@@ -23,7 +23,8 @@ brew 'pebble/pebble-sdk/pebble-qemu'
 brew 'pebble/pebble-sdk/pebble-toolchain'
 brew 'pebble/pebble-sdk/pebble-sdk'
 
-cask 'sublime-text3'
+cask 'sublime-text'
+cask 'mactex'
 
 mas 'GarageBand', id: 682658836
 mas 'Keynote', id: 409183694

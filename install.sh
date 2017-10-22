@@ -15,8 +15,9 @@ function setupWorkstation()
 
 	# symlink
 	ln -sfv "$HOME/.dotfiles/editors/.vimrc" ~
-	ln -sfv "$HOME/.dotfiles/editors/sublime/" "$HOME/Library/Application Support/Sublime Text 3/Packages"
-	mv "$HOME/Library/Application Support/Sublime Text 3/Packages/sublime" "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
+    rm -r "$HOME/Library/Application Support/Sublime Text 3/Packages/User/"
+	ln -sfv "$HOME/.dotfiles/editors/sublime/" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/"
+
 
 	ln -sfv "$HOME/.dotfiles/git/.gitconfig" ~
 	ln -sfv "$HOME/.dotfiles/git/.gitignore_global" ~
@@ -31,9 +32,6 @@ function setupWorkstation()
 
 	ln -sfv "$HOME/.dotfiles/tmux/.tmux.conf" ~
 	ln -sfv "$HOME/.dotfiles/tmux/.tmux-gitbar.conf" ~
-
-	# nano syntax highlighting
-	curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
 
 	source .macos
 }
@@ -67,7 +65,4 @@ function setupMacServer()
 
 	ln -sfv "$HOME/.dotfiles/tmux/.tmux.conf" ~
 	ln -sfv "$HOME/.dotfiles/tmux/.tmux-gitbar.conf" ~
-
-	# nano syntax highlighting
-	curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
 }
