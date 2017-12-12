@@ -16,7 +16,7 @@ function setupWorkstation()
 	# symlink
 	ln -sfv "$HOME/.dotfiles/editors/.vimrc" ~
     rm -r "$HOME/Library/Application Support/Sublime Text 3/Packages/User/"
-	ln -sfv "$HOME/.dotfiles/editors/sublime/" "$HOME/Library/Application Support/Sublime Text 3/Packages/User/"
+	ln -sfv "$HOME/.dotfiles/editors/sublime/" "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
 	ln -sfv "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" "/usr/local/bin/subl"
 
 
