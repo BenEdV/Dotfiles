@@ -20,3 +20,6 @@ alias reload_profile=". ~/.bash_profile"
 
 # python virtual environment
 alias ve="source venv/bin/activate"
+
+# remove all latex temp files
+alias clean_latex="rm -r {.,**,**/**}/*.{aux,log,fls,fdb_latexmk,synctex.gz}"
