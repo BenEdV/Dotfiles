@@ -8,7 +8,19 @@ done
 
 col=$((has%255+1))
 
-prompt="\[\e[36m\]\u" #username
+function return_code()
+{
+	RETVAL=$?
+	if [ $RETVAL -ne 0 ] 
+	then
+		printf "[\e[31m%s\e[m] " "$RETVAL"
+	else
+		printf "[\e[32m%s\e[m] " "$RETVAL"
+	fi
+}
+
+prompt="\`return_code\`"
+prompt="$prompt\[\e[36m\]\u" #username
 prompt="$prompt\[\e[m\]@" #@
 prompt="$prompt\[\e[38;5;$col""m\]\h" #hostname
 prompt="$prompt\[\e[m\]:" #:
