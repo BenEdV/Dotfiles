@@ -1,9 +1,9 @@
 #! bin/bash
-
+has=0
 # Hash the hostname to create a random colour for each host
 for (( i=0; i<${#HOSTNAME}; i++ )); do
   l="${HOSTNAME:$i:1}"
-  has+=$(printf '%d\n' "'$l")
+  has=$(($has+$(printf '%d\n' "'$l") ))
 done
 
 col=$((has%255+1))
