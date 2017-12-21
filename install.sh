@@ -26,9 +26,6 @@ function setupWorkstation()
 
 	ln -sfv "$HOME/.dotfiles/system/.bash_profile" ~
 	ln -sfv "$HOME/.dotfiles/system/.inputrc" ~
-	ln -sfv "$HOME/.dotfiles/system/.aliases" ~
-	ln -sfv "$HOME/.dotfiles/system/.exports" ~
-	ln -sfv "$HOME/.dotfiles/system/.prompt" ~
 	ln -sfv "$HOME/.dotfiles/system/.git-completion.bash" ~
 
 	ln -sfv "$HOME/.dotfiles/tmux/.tmux.conf" ~
@@ -59,9 +56,6 @@ function setupMacServer()
 
 	ln -sfv "$HOME/.dotfiles/system/.bash_profile" ~
 	ln -sfv "$HOME/.dotfiles/system/.inputrc" ~
-	ln -sfv "$HOME/.dotfiles/system/.aliases" ~
-	ln -sfv "$HOME/.dotfiles/system/.exports" ~
-	ln -sfv "$HOME/.dotfiles/system/.prompt" ~
 	ln -sfv "$HOME/.dotfiles/system/.git-completion.bash" ~
 
 	ln -sfv "$HOME/.dotfiles/tmux/.tmux.conf" ~
