@@ -8,7 +8,7 @@ alias .....="cd ../../../.."
 
 # Coloured ls
 export CLICOLOR=1
-export LSCOLORS=ExFxBxDxCxegedabagacad
+export LSCOLORS=GxFxBxDxCxegedabagacad
 alias ls='ls -GFh'
 alias la='ls -a'
 
