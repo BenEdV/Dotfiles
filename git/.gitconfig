@@ -11,6 +11,9 @@
 	a = add
 	s = status
 	cm = commit -m
+	b = branch
+	co = checkout
+	cp = cherry-pick
 
 [core]
 	excludesfile = ~/.gitignore_global
