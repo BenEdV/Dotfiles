@@ -11,7 +11,7 @@ col=$((has%255+1))
 function return_code()
 {
 	RETVAL=$?
-	if [ $RETVAL -ne 0 ] 
+	if [ $RETVAL -ne 0 ]
 	then
 		printf "[\e[31m%s\e[m] " "$RETVAL"
 	else
@@ -25,5 +25,6 @@ prompt="$prompt\[\e[m\]@" #@
 prompt="$prompt\[\e[38;5;$col""m\]\h" #hostname
 prompt="$prompt\[\e[m\]:" #:
 prompt="$prompt\[\e[33;1m\]\w\n" #directory
-prompt="$prompt\[\e[m\]\$ " #prompt
+prompt="$prompt\[\e[m\]\$ \[\e[37m\]" #prompt
 export PS1=$prompt
+trap '[[ -t 1 ]] && tput sgr0' DEBUG
