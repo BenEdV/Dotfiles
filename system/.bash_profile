@@ -31,3 +31,6 @@ complete -F _complete_ssh_hosts ssh scp
 
 # fzf
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+# start in tmux
+tmux attach -t default || tmux new-session -s default
