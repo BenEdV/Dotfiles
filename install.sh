@@ -47,6 +47,31 @@ function setupMacServer()
 	# install tmux gitbar
 	git clone https://github.com/aurelien-rainone/tmux-gitbar.git ~/.tmux-gitbar
 
+	# rsub
+	sudo wget -O /usr/local/bin/rsub https://raw.github.com/aurora/rmate/master/rmate
+	sudo chmod +x /usr/local/bin/rsub
+
+	# symlink
+	ln -sfv "$HOME/.dotfiles/editors/.vimrc" ~
+
+	ln -sfv "$HOME/.dotfiles/git/.gitconfig" ~
+	ln -sfv "$HOME/.dotfiles/git/.gitignore_global" ~
+	ln -sfv "$HOME/.dotfiles/git/.hgignore_global" ~
+
+	ln -sfv "$HOME/.dotfiles/system/.bash_profile" ~
+	ln -sfv "$HOME/.dotfiles/system/.inputrc" ~
+	ln -sfv "$HOME/.dotfiles/system/.git-completion.bash" ~
+
+	ln -sfv "$HOME/.dotfiles/tmux/.tmux.conf" ~
+	ln -sfv "$HOME/.dotfiles/tmux/.tmux-gitbar.conf" ~
+}
+
+function setupUbuntuServer()
+{
+	# rsub
+	sudo wget -O /usr/local/bin/rsub https://raw.github.com/aurora/rmate/master/rmate
+	sudo chmod +x /usr/local/bin/rsub
+
 	# symlink
 	ln -sfv "$HOME/.dotfiles/editors/.vimrc" ~
 
