@@ -12,6 +12,12 @@ export HISTCONTROL='ignoreboth';
 
 # Allow scripts in Scripts folder to be executed as functions
 export PATH=$PATH:~/Scripts
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
+
+# Node Version Manager
+export NVM_DIR="$HOME/.nvm"
 
 # Sublime text as editor
 export EDITOR='subl -w'
