@@ -32,5 +32,21 @@ complete -F _complete_ssh_hosts ssh scp
 # fzf
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
-# start in tmux
-tmux attach -t default || tmux new-session -s default
+# start in tmux if not in tmux already
+if [[ $SHLVL == "1" ]]; then
+	tmux attach -t default || tmux new-session -s default
+fi
+
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+function create_python_script()
+{
+	touch "$1.py"
+	chmod +x "$1.py"
+	echo "#!/usr/bin/env python3" > "$1.py"
+}
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"

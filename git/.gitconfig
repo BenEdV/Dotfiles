@@ -17,3 +17,4 @@
 
 [core]
 	excludesfile = ~/.gitignore_global
+	autocrlf = input

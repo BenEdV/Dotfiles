@@ -13,7 +13,7 @@ alias ls='ls -GFh'
 alias la='ls -a'
 
 # Matlab
-alias matlab='/Applications/MATLAB_R2016b.app/bin/matlab -nodesktop -nosplash'
+alias matlab='/Applications/MATLAB_R2018a.app/bin/matlab -nodesktop -nosplash'
 
 # Profile command
 alias reload_profile=". ~/.bash_profile"
@@ -29,3 +29,6 @@ alias postgres="/Applications/Postgres.app/Contents/Versions/9.6/bin/psql -p5432
 
 # simple web server
 alias webserver="python -m SimpleHTTPServer 8000"
+
+# docker compose
+alias dc="docker-compose"
