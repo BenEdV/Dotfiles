@@ -1,4 +1,8 @@
 {
+	"added_words":
+	[
+		"Poisson"
+	],
 	"auto_complete_triggers":
 	[
 		{
@@ -15,12 +19,22 @@
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		"__pycache__",
+		"venv",
+		"node_modules",
+		"dist",
+		"data",
+		".git",
+		".coverage"
+	],
 	"font_face": "Hack",
 	"font_options":
 	[
 		"gray_antialias"
 	],
-	"font_size": 13,
+	"font_size": 12,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -39,5 +53,6 @@
 	"scroll_past_end": true,
 	"show_errors_inline": true,
 	"theme": "Material-Theme.sublime-theme",
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_"
 }

@@ -24,3 +24,6 @@ export EDITOR='subl -w'
 
 # fix tmux
 export EVENT_NOKQUEUE=1
+
+# Silence macOS Catalina warning
+export BASH_SILENCE_DEPRECATION_WARNING=1

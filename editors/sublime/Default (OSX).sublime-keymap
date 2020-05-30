@@ -1,0 +1,23 @@
+[
+	// Switch ; and \ keys in latex to reduce strain
+	{ "keys": [";"], "command": "insert", "args": {"characters": "\\"},
+		"context":
+		[
+			{ "key": "selector", "operator": "equal", "operand": "(text.tex)", "match_all": true },
+		]
+	},
+	{ "keys": ["\\"], "command": "insert", "args": {"characters": ";"},
+		"context":
+		[
+			{ "key": "selector", "operator": "equal", "operand": "(text.tex)", "match_all": true },
+		]
+	},
+	// Tab navigation goes left and right according to the order in bar
+	{ "keys": ["ctrl+tab"], "command": "next_view" },
+	{ "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+	// Calculate
+	{ "keys": ["ctrl+shift+="], "command": "calculate", "args": {"replace": false} },
+    { "keys": ["ctrl+shift+c"], "command": "calculate", "args": {"replace": true} },
+    // Related Files
+    { "keys": ["super+shift+o"], "command": "related_files" },
+]
