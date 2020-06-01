@@ -18,15 +18,26 @@ brew 'swiftlint'
 brew 'texinfo'
 brew 'tmux'
 brew 'tree'
+brew 'docker'
+brew 'docker-compose'
+brew 'ffmpeg'
+brew 'nvm'
+brew 'youtube-dl'
 
 cask 'sublime-text'
 cask 'mactex'
 cask 'openemu'
 cask 'tunnelblick'
+cask 'alfred'
+cask 'insomnia'
+cask 'firefox'
+cask 'skype'
+cask 'plex-media-player'
+cask 'gpg-suite'
+cask 'sublime-merge'
 
 mas 'GarageBand', id: 682658836
 mas 'Keynote', id: 409183694
-mas 'Logic Pro', id: 459578486
 mas 'Monity', id: 915542151
 mas 'Notability', id: 736189492
 mas 'Numbers', id: 409203825
