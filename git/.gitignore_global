@@ -5,3 +5,4 @@
 *.gz
 *.log
 *.fdb_latexmk
+src/proxy.conf.json

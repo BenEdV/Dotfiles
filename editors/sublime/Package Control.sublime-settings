@@ -18,9 +18,11 @@
 		"Increment Decrement",
 		"Increment Selection",
 		"JSLint",
+		"Julia",
 		"LaTeXTools",
 		"MarkdownPreview",
 		"Material Theme",
+		"Ngx HTML",
 		"OpenCL",
 		"Package Control",
 		"Pretty JSON",
@@ -32,14 +34,15 @@
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-chktex",
+		"SublimeLinter-eslint",
 		"SublimeLinter-hlint",
 		"SublimeLinter-pycodestyle",
 		"SublimeLinter-ruby",
 		"SublimeLinter-shellcheck",
-		"SublimeLinter-tslint",
 		"Swift",
 		"Terminal",
 		"Text Pastry",
-		"TypeScript Syntax"
+		"TypeScript Syntax",
+		"WordCount"
 	]
 }

@@ -15,6 +15,7 @@ export PATH=$PATH:~/Scripts
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
+export PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
 
 # Node Version Manager
 export NVM_DIR="$HOME/.nvm"

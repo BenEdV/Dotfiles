@@ -20,4 +20,8 @@
 	autocrlf = input
 
 [commit]
-	gpgsign = true
+	gpgsign = false
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main

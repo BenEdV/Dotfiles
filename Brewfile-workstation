@@ -1,6 +1,6 @@
 cask_args appdir: '/Applications'
 
-tap 'caskroom/cask'
+tap 'homebrew/cask'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
 
@@ -23,6 +23,9 @@ brew 'docker-compose'
 brew 'ffmpeg'
 brew 'nvm'
 brew 'youtube-dl'
+brew 'tmuxinator'
+brew 'git-lfs'
+brew 'rbenv'
 
 cask 'sublime-text'
 cask 'mactex'
@@ -35,6 +38,10 @@ cask 'skype'
 cask 'plex-media-player'
 cask 'gpg-suite'
 cask 'sublime-merge'
+cask 'microsoft-teams'
+cask 'adobe-digital-editions'
+cask 'godot'
+csak 'spotify'
 
 mas 'GarageBand', id: 682658836
 mas 'Keynote', id: 409183694

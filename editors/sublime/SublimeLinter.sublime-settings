@@ -4,6 +4,15 @@
 	"linters": {
 		"pycodestyle": {
 			"max-line-length": 120
+		},
+		"eslint": {
+			"env": {"PATH":"/Users/ben/.nvm/versions/node/v13.14.0/bin/"},
+			"selector": "source.ts, source.js - meta.attribute-with-value"
 		}
+	},
+	"paths": {
+		"osx": [
+	        "~/.nvm/versions/node/v13.14.0/bin/"
+	    ]
 	}
 }

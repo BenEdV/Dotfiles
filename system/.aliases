@@ -31,7 +31,7 @@ alias ve="source venv/bin/activate"
 alias clean_latex="rm -r {.,**,**/**}/*.{aux,log,fls,fdb_latexmk,synctex.gz}"
 
 # postgres
-alias postgres="/Applications/Postgres.app/Contents/Versions/9.6/bin/psql -p5432 -d"
+alias postgres="/Applications/Postgres.app/Contents/Versions/12/bin/psql -p5432 -d"
 
 # simple web server
 alias webserver="python -m SimpleHTTPServer 8000"
