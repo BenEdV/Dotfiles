@@ -36,10 +36,12 @@
 	[
 		"gray_antialias"
 	],
-	"font_size": 11,
+	"font_size": 13,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"Python PEP8 Autoformat",
+		"SublimeLinter",
 		"Vintage",
 	],
 	"indent_guide_options":
@@ -56,5 +58,5 @@
 	"show_errors_inline": true,
 	"theme": "Material-Theme.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
-	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_"
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_",
 }
