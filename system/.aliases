@@ -19,7 +19,7 @@ alias la='ls -a'
 alias ll='ls -l'
 
 # Matlab
-alias matlab='/Applications/MATLAB_R2018a.app/bin/matlab -nodesktop -nosplash'
+alias matlab='/Applications/MATLAB_R2021b.app/bin/matlab -nodesktop -nosplash'
 
 # Profile command
 alias reload_profile=". ~/.bash_profile"
