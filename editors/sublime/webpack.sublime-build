@@ -1,0 +1,3 @@
+{
+	"shell_cmd": "npx webpack --mode='development'"
+}
