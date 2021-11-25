@@ -19,6 +19,7 @@ function setupWorkstation()
 	ln -sfv "$HOME/.dotfiles/editors/sublime/" "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
 	ln -sfv "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" "/usr/local/bin/subl"
 
+	rm -r "$HOME/Library/Developer/Xcode/UserData/FontAndColorThemes"
 
 	ln -sfv "$HOME/.dotfiles/git/.gitconfig" ~
 	ln -sfv "$HOME/.dotfiles/git/.gitignore_global" ~

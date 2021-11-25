@@ -49,6 +49,3 @@ function create_python_script()
 # nvm
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
 [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"
-
-# godot
-ln -s /Applications/Godot.app/Contents/MacOS/Godot /usr/local/bin/godot
