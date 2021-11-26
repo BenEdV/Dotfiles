@@ -172,8 +172,11 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 # Set dock orientation to the left
 defaults write com.apple.dock orientation -string "left"
 
-# Set the icon size of Dock items to 36 pixels
-defaults write com.apple.dock tilesize -int 36
+# Set the icon size of Dock items to 16 pixels
+defaults write com.apple.dock tilesize -int 16
+
+# Auto hide dock
+defaults write com.apple.dock "autohide" -bool "true"
 
 # Disable indicator lights for open applications in the Dock
 defaults write com.apple.dock show-process-indicators -bool false

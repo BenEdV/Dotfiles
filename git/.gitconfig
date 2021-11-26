@@ -18,6 +18,7 @@
 [core]
 	excludesfile = ~/.gitignore_global
 	autocrlf = input
+	compression = 0
 
 [commit]
 	gpgsign = false
@@ -30,3 +31,5 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[http]
+	postBuffer = 1048576000

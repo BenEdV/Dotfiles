@@ -4,6 +4,8 @@ tap 'homebrew/cask'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
 
+mas 'Xcode', id: 497799835
+
 brew 'sqlite'
 brew 'python3'
 brew 'coreutils'
@@ -26,6 +28,7 @@ brew 'youtube-dl'
 brew 'tmuxinator'
 brew 'git-lfs'
 brew 'rbenv'
+brew 'php'
 
 cask 'sublime-text'
 cask 'mactex'
@@ -42,5 +45,4 @@ cask 'microsoft-teams'
 cask 'adobe-digital-editions'
 cask 'godot'
 cask 'spotify'
-
-mas 'Monity', id: 915542151
+cask 'slack'
